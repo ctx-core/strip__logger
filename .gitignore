@@ -3,3 +3,4 @@ tsconfig.tsbuildinfo
 lib.js
 store.js
 
+node_modules
