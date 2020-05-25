@@ -2,6 +2,7 @@
 	"name": "@ctx-core/strip__logger",
 	"version": "3.1.17",
 	"description": "ctx-core strip__logger script",
+	"type": "module",
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
