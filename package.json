@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/strip__logger",
-	"version": "3.1.18",
+	"version": "3.1.19",
 	"description": "ctx-core strip__logger script",
 	"type": "module",
 	"main": "lib.js",
