@@ -3,10 +3,10 @@
  * @module @ctx-core/logger/strip-logger
  * @see {@link https://github.com/sindresorhus/strip-debug}
  */
-const { output__strip__logger } = require('../lib')
+import fs from 'fs'
+import { output__strip__logger } from '../lib'
 main()
 function main() {
-	const fs = require('fs')
 	const { argv } = process
 	const file = argv[2]
 	let src

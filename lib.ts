@@ -3,6 +3,7 @@
  * @module @ctx-core/logger/strip-logger
  * @see {@link https://github.com/sindresorhus/strip-debug}
  */
+import fs from 'fs'
 import rocambole from 'rocambole'
 import strip__debugger from 'rocambole-strip-debugger'
 import strip__console from 'rocambole-strip-console'
@@ -12,7 +13,6 @@ import updateNode from 'rocambole-node-update'
 // loop the same node twice (see jquery/esprima/issues/1031 and #264)
 rocambole.BYPASS_RECURSION.handler = true
 export function main() {
-	const fs = require('fs')
 	const { argv } = process
 	const file = argv[2]
 	let src
