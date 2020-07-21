@@ -37,7 +37,7 @@
 		"rocambole-strip-debugger": "^2.0.0"
 	},
 	"devDependencies": {
-		"typescript": "^3.9.6"
+		"typescript": "^3.9.7"
 	},
 	"gitHead": "fac9a6b27c2b30eb8be2f0d198285b81fee666c9"
 }
