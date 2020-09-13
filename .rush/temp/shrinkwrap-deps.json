@@ -1,0 +1,14 @@
+{
+  "esm@3.2.25": "sha512-U1suiZ2oDVWv4zPO56S0NcR5QriEahGtdN2OR6FiOG4WJvcjBVFB0qI4+eKoWFH483PKGuLuu6V8Z4T5g63UVA==",
+  "esprima@2.7.3": "sha1-luO3DVd59q1JzQMmc9HDEnZ7pYE=",
+  "rocambole-node-remove@2.0.0": "sha512-sxVVS4EcfXQrPq9LVtvPS4OxE35Dqedi/DE5L9r8lyq53U7QYm6JKO6CEZrSNOL1v/Hw0OXtGysbxzIqP9OU8g==",
+  "rocambole-node-update@1.0.2": "sha512-kaOi0zb+Nm9hAclA0AZIoxblzAJ04J+HnWeG7+PJZYaf12atAAZavgxRjKcnGdidYNA8oQnZl8aoCt3nhFRbQg==",
+  "rocambole-node-update@2.0.0": "sha512-/4JYrGR1DjJbS9AVO9iL0/nD8S5sxRBB8FOVE1FG6BwNu3ZSFjgAarN5da4XDLoOZz1tOMkKDccpcx3y6uBl/Q==",
+  "rocambole-node-update@3.0.0": "sha512-to8WFR/FfOCoiUTzAjsCyCwj/IUHUSzu+e4uSHAan6voja35OMLHAXPkHzS7HQa44n2EIakrm0/8fgU9SyXSCw==",
+  "rocambole-strip-alert@1.0.0": "sha1-OyVf5vGNYwH4BaFOVwsfHy26hX8=",
+  "rocambole-strip-console@3.0.0": "sha512-2inKJjI7kMURc+M3rqXhq2F/Gta0j8ayHgaptL/tQ2latBb7gvgQ+AoT28YZcPC90XltGaaoWQtLIkDGBhAE/A==",
+  "rocambole-strip-debugger@2.0.0": "sha512-ncpSUMWHhr1YCG5TQ04hIqda41qTduwG1d7tRDGAkcHvsaeYL5R/VnilAFw2J8eQRDY2VU6CY1OgT2UyLq3t4Q==",
+  "rocambole-token@1.2.1": "sha1-x4XfdCjcPLJ614lwR71SOMwHDTU=",
+  "rocambole@0.7.0": "sha1-9seVBVF9xCtvuECEK4uVOw+WhYU=",
+  "typescript@4.0.2": "sha512-e4ERvRV2wb+rRZ/IQeb3jm2VxBsirQLpQhdxplZ2MEzGvDkkMmPglecnNDfSUBivMjP93vRbngYYDQqQ/78bcQ=="
+}
