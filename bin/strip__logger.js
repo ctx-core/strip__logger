@@ -4,7 +4,7 @@
  * @see {@link https://github.com/sindresorhus/strip-debug}
  */
 const fs = require('fs')
-const { output__strip__logger } = require('../lib')
+const { output_strip_logger } = require('../lib')
 main()
 function main() {
 	const { argv } = process
@@ -12,7 +12,7 @@ function main() {
 	let src
 	if (file) {
 		src = fs.readFileSync(file, 'utf8')
-		output__strip__logger(src)
+		output_strip_logger(src)
 	} else {
 		const a1__src = []
 		process.stdin.on('readable', () => {
@@ -23,7 +23,7 @@ function main() {
 		})
 		process.stdin.on('end', () => {
 			src = a1__src.join('')
-			output__strip__logger(src)
+			output_strip_logger(src)
 		})
 	}
 }

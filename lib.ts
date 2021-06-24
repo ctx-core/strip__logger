@@ -18,22 +18,22 @@ export function main() {
 	let src
 	if (file) {
 		src = fs.readFileSync(file, 'utf8')
-		output__strip__logger(src)
+		output_strip_logger(src)
 	} else {
-		const a1__src = []
+		const src_a:string[] = []
 		process.stdin.on('readable', () => {
-			const chunk = process.stdin.read()
+			const chunk = process.stdin.read().toString
 			if (chunk) {
-				a1__src.push(chunk)
+				src_a.push(chunk)
 			}
 		})
 		process.stdin.on('end', () => {
-			src = a1__src.join('')
-			output__strip__logger(src)
+			src = src_a.join('')
+			output_strip_logger(src)
 		})
 	}
 }
-export function output__strip__logger(src) {
+export function output_strip_logger(src) {
 	console.info(strip__logger(src).toString())
 }
 export function strip__logger(src) {
