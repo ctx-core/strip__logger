@@ -6,7 +6,7 @@
 	"module": "./index.js",
 	"types": "./index.ts",
 	"scripts": {
-		"build": "npm run clean && npm run compile",
+		"build": "npm run clean && npm run copy-mjs && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b",
 		"prepublishOnly": "npm run build",
@@ -21,7 +21,6 @@
 		"logger"
 	],
 	"author": "Brian Takita",
-	"type": "module",
 	"license": "Apache-2.0",
 	"bugs": {
 		"url": "https://github.com/ctx-core/strip__logger/issues"
