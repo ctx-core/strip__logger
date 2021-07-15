@@ -21,6 +21,7 @@
 		"logger"
 	],
 	"author": "Brian Takita",
+	"type": "module",
 	"license": "Apache-2.0",
 	"bugs": {
 		"url": "https://github.com/ctx-core/strip__logger/issues"
