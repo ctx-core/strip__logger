@@ -6,9 +6,9 @@
 	"module": "./index.js",
 	"types": "./index.ts",
 	"scripts": {
-		"build": "npm run clean && npm run copy-mjs && npm run compile",
-		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
-		"compile": "./node_modules/.bin/tsc -b",
+		"build": "npm run compile",
+		"clean": "rm -rf dist",
+		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
 		"prepublishOnly": "npm run build",
 		"exec": "$@"
 	},
@@ -38,6 +38,8 @@
 		"rocambole-strip-debugger": "^2.0.0"
 	},
 	"devDependencies": {
+		"@swc/cli": "^0.1.51",
+		"@swc/core": "^1.2.106",
 		"typescript": "^4.0.2"
 	},
 	"gitHead": "dd83cbf003ba3f11bed70a2812dde9ee71b8e317"
