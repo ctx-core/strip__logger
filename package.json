@@ -12,7 +12,8 @@
 		"compile:source": "swc src --out-dir lib --copy-files --source-maps --config-file .swcrc",
 		"compile:declaration": "npm run clean:tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir lib",
 		"prepublishOnly": "pnpm clean && pnpm build",
-		"exec": "$@"
+		"exec": "$@",
+		"test": ":"
 	},
 	"repository": {
 		"type": "git",
