@@ -3,7 +3,7 @@
  * @module @ctx-core/logger/strip-logger
  * @see {@link https://github.com/sindresorhus/strip-debug}
  */
-import fs from 'fs'
+import fs from 'node:fs'
 import rocambole from 'rocambole'
 import strip__debugger from 'rocambole-strip-debugger'
 import strip__console from 'rocambole-strip-console'
