@@ -6,12 +6,12 @@
 	"module": "./index.js",
 	"types": "./index.ts",
 	"scripts": {
-		"build": "pnpm compile",
+		"build": "bun run compile",
 		"clean": "rm -rf lib",
-		"compile": "pnpm compile:source && pnpm compile:declaration",
+		"compile": "bun run compile:source && bun run compile:declaration",
 		"compile:source": "swc src --out-dir lib --copy-files --source-maps --config-file .swcrc",
 		"compile:declaration": "npm run clean:tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir lib",
-		"prepublishOnly": "pnpm clean && pnpm build",
+		"prepublishOnly": "bun run clean && bun run build",
 		"exec": "$@",
 		"test": ":"
 	},
